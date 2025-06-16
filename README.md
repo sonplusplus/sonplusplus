@@ -1,6 +1,6 @@
 # 👋 Hello! I'm Vũ Ngọc Sơn 
 
-I'm currently a **third-year student majoring in Information Technology** at the **Posts and Telecommunications Institute of Technology (PTIT), Ho Chi Minh City Campus**. With a strong passion for technology, specializing in **AI-powered Web Applications(NLP)**,**Machine Learning** and **Deep Learning for Computer Vision**. I enjoy building complex, data-driven projects and am constantly exploring new ways to integrate intelligent features into software. I am on a dedicated path to becoming an AI Engineer, with the goal of developing software that makes a meaningful impact..
+I'm currently a **third-year student majoring in Information Technology** at the **Posts and Telecommunications Institute of Technology (PTIT), Ho Chi Minh City Campus**. With a strong passion for technology, specializing in **AI-powered Web Applications(NLP)**,**Machine Learning** and **Deep Learning for Computer Vision**. I enjoy building complex, data-driven projects and am constantly exploring new ways to integrate intelligent features into software. I am on a dedicated path to becoming an AI Engineer, with the goal of developing software that makes a meaningful impact.
 
 ---
 
@@ -33,19 +33,20 @@ I'm currently a **third-year student majoring in Information Technology** at the
 ## 🚀 Projects
 
 ### 🛍️ [Front-Ecommerce](https://github.com/sonplusplus/Front-Ecommerce)
-A modern and scalable front-end implementation for an e-commerce platform, built with a focus on user experience and component-based architecture.
-
-This project demonstrates the ability to build clean, responsive, and interactive user interfaces for a web-based application. It serves as the client-facing side of an online store, featuring components for product Browse, searching, and viewing detailed product information. The application was developed using a component-based architecture, which makes the codebase modular, reusable, and easy to maintain—essential skills for building large-scale web applications.
+A feature-rich frontend for a technology e-commerce website, built with ReactJS and Vite. This project delivers a modern, fast, and smooth user experience, allowing users to browse, search, and filter products, manage their shopping cart, and complete the checkout process. It features a robust authentication system (including OAuth2) and integrates a Gemini-powered AI chatbot for customer support.
 
 #### Highlights
-* **Responsive User Interface**: The UI is designed to provide a seamless experience across various devices, from desktops to mobile phones.
-* **Component-Based Architecture**: Built using a modular approach, where the UI is broken down into independent and reusable components (e.g., product cards, navigation bar, search field). This promotes scalability and maintainability.
-* **State Management**: Showcases proficiency in managing application state to handle user interactions, shopping cart data, and dynamic content rendering.
+* **Comprehensive E-commerce Workflow**: Full implementation of product Browse, multi-level filtering (category, price, color), sorting, and a multi-step checkout process with integrated Vietnamese address APIs and multiple payment options (COD, VNPAY).
+* **Advanced User Authentication**: Secure user registration and login with email/password and OAuth2 (Google, GitHub), including OTP verification, "Forgot Password" functionality, and role-based access control.
+* **Integrated AI Chatbot**: Features a customer support chatbot powered by the Google Gemini API, providing intelligent assistance to users.
+* **Modern State Management & UI**: Utilizes React Context API for global state management (Auth, Cart, Orders) and is styled with a combination of Tailwind CSS and Material-UI for a clean, responsive, and accessible interface.
 
 #### Tech Stack
-* **ReactJS**
-* **JavaScript (ES6+)**
-* **HTML5 & CSS3**
+* **ReactJS** & **Vite**
+* **React Router**
+* **Styling**: Tailwind CSS, Material-UI (MUI), Headless UI
+* **API Communication**: Axios with JWT interceptors
+* **Schema Validation**: Zod
 
 ---
 
