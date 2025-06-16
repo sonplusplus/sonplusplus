@@ -57,13 +57,14 @@ This project is the front-end for a movie theater booking platform, allowing use
 
 #### Highlights
 * **Interactive UI/UX**: Features a dynamic and engaging interface that allows users to easily navigate through the booking process, from movie selection to seat reservation.
-* **Complex State Management**: Demonstrates expertise in managing intricate application states, ensuring data consistency across multiple components (e.g., updating the total price as seats are selected).
-* **Component Reusability**: The UI is built with reusable components for movie listings, showtime displays, and seating charts, showcasing efficient and scalable development practices.
+* **Full Booking and Checkout Flow**: Implements the entire user journey, including an interactive seat map, adding concessions, and a checkout process with a countdown timer for holding reservations.
+* **Payment Gateway Integration**: Connects with the VNPay payment gateway to handle transactions and displays a confirmation page upon completion.
+* **Component-Based Architecture**: The UI is built with reusable components for movie listings, showtime displays, and UI elements, showcasing efficient and scalable development practices.
 
 #### Tech Stack
 * **ReactJS**
 * **JavaScript**
-* **CSS**
+* **Tailwind CSS**
 
 ---
 
@@ -121,7 +122,8 @@ This project implements a **Double Deep Q-Network (DDQN)**, an advanced model de
 ## 🌱 Currently Learning
 
 I am always eager to learn and expand my skill set. Currently, I'm focusing on:
-- Deepening my understanding of **Artificial Intelligent** and its applications.
+- Exploring advanced Computer Vision architectures like **Vision Transformers (ViT)** and their applications in **Object Detection** and **Image Segmentation**.
+- Fine-tuning **Large Language Models (LLMs)** for specialized tasks and exploring techniques like **Retrieval-Augmented Generation (RAG)**.
 
 ---
 
