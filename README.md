@@ -1,4 +1,4 @@
-# 👋 Hello! I'm Vũ Ngọc Sơn 
+# 👋 Hello! I'm Vũ Ngọc Sơn 
 
 I'm currently a **third-year student majoring in Information Technology** at the **Posts and Telecommunications Institute of Technology (PTIT), Ho Chi Minh City Campus**. With a strong passion for technology, specializing in **AI-powered Web Applications(NLP)**,**Machine Learning** and **Deep Learning for Computer Vision**. I enjoy building complex, data-driven projects and am constantly exploring new ways to integrate intelligent features into software. My goal is to become a AI Engineer with many useful product for people.
 
@@ -68,37 +68,20 @@ This project is the front-end for a movie theater booking platform, allowing use
 
 ---
 
-### 🤖 [Chatbot-ecommerce-callapi](https://github.com/sonplusplus/Chatbot-ecommerce-callapi)
-An intelligent e-commerce chatbot capable of real-time interactions by fetching live data from external APIs.
-
-This project elevates a standard chatbot by giving it the ability to perform actions and provide real-time, dynamic information. The chatbot can handle user queries about order status, product availability, or shipping details by making live calls to a backend API. This demonstrates the ability to integrate a Natural Language Processing (NLP) system with external services, bridging the gap between conversational AI and a live business application.
+### 🤖 [Intelligent E-commerce Chatbot](https://github.com/sonplusplus/Chatbot-ecommerce)
+A sophisticated, AI-powered conversational assistant built with the Rasa framework, designed to serve as a virtual shopping assistant for an online electronics store. This chatbot enhances the customer experience by providing instant, real-time support in Vietnamese, handling a wide range of queries from product discovery.
 
 #### Highlights
-* **API Integration**: The chatbot connects to external REST APIs to fetch or update data, providing users with up-to-the-minute information.
-* **Actionable Conversations**: Moves beyond simple Q&A by executing tasks on behalf of the user, such as retrieving specific order details from a database.
-* **Backend System Interaction**: Showcases skills in building a bridge between an NLP model and a live backend, a crucial component of modern, service-oriented AI applications.
+* **Dynamic Product Interaction**: The chatbot can recommend products based on type, price, and features. It can also filter search results by brand and price range, and even provide side-by-side comparisons of two different products.
+* **Real-Time API Integration**: Using custom actions, the chatbot connects to the store's backend to check real-time product prices, stock availability, and order status, providing users with up-to-the-minute information.
+* **Advanced Natural Language Understanding (NLU)**: Built with a robust NLU pipeline, the chatbot accurately identifies user intents (e.g., `ask_product_recommendation`, `compare_products`) and extracts key entities like `product_name`, `brand`, and `price_range` from Vietnamese text.
 
 #### Tech Stack
 * **Python**
-* **Rasa / NLTK** (or similar NLP framework)
+* **Rasa**
+* **Rasa SDK**
 * **REST APIs**
-
----
-
-### 💬 [Chatbot-ecommerce](https://github.com/sonplusplus/Chatbot-ecommerce)
-A foundational NLP-based chatbot designed to handle customer service inquiries for an e-commerce platform.
-
-This project demonstrates core skills in Natural Language Processing and machine learning by building a chatbot from the ground up. The model is trained on custom e-commerce data (intents, entities, and responses) to understand user queries related to products, orders, and customer support. It serves as the foundational AI engine for a conversational agent, showcasing the process of data preparation, model training, and intent recognition.
-
-#### Highlights
-* **Natural Language Processing (NLP)**: Demonstrates core skills in text processing, intent classification, and entity extraction to understand user requests.
-* **Custom Model Training**: The chatbot is trained on a domain-specific dataset, showcasing the ability to tailor an AI model to a particular business need (e-commerce).
-* **Conversational Flow Design**: The project involves designing conversation patterns and responses, which is a key aspect of creating an effective and user-friendly chatbot.
-
-#### Tech Stack
-* **Python**
-* **Jupyter Notebook**
-* **NLP Libraries** (e.g., NLTK, spaCy)
+* **Pandas & Requests**
 
 ---
 
