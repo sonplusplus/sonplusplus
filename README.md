@@ -1,6 +1,6 @@
 # 👋 Hello! I'm Vũ Ngọc Sơn 
 
-I'm currently a **third-year student majoring in Information Technology** at the **Posts and Telecommunications Institute of Technology (PTIT), Ho Chi Minh City Campus**. With a strong passion for technology, specializing in **AI-powered Web Applications(NLP)**,**Machine Learning** and **Deep Learning for Computer Vision**. I enjoy building complex, data-driven projects and am constantly exploring new ways to integrate intelligent features into software. My goal is to become a AI Engineer with many useful product for people.
+I'm currently a **third-year student majoring in Information Technology** at the **Posts and Telecommunications Institute of Technology (PTIT), Ho Chi Minh City Campus**. With a strong passion for technology, specializing in **AI-powered Web Applications(NLP)**,**Machine Learning** and **Deep Learning for Computer Vision**. I enjoy building complex, data-driven projects and am constantly exploring new ways to integrate intelligent features into software. I am on a dedicated path to becoming an AI Engineer, with the goal of developing software that makes a meaningful impact..
 
 ---
 
@@ -31,8 +31,6 @@ I'm currently a **third-year student majoring in Information Technology** at the
 ---
 
 ## 🚀 Projects
-
-*Đây là các đồ án nổi bật thể hiện kỹ năng của tôi trong lĩnh vực E-commerce và Trí tuệ nhân tạo.*
 
 ### 🛍️ [Front-Ecommerce](https://github.com/sonplusplus/Front-Ecommerce)
 A modern and scalable front-end implementation for an e-commerce platform, built with a focus on user experience and component-based architecture.
@@ -82,6 +80,23 @@ A sophisticated, AI-powered conversational assistant built with the Rasa framewo
 * **Rasa SDK**
 * **REST APIs**
 * **Pandas & Requests**
+
+---
+
+### 🤖 [Chatbot E-commerce Call API](https://github.com/sonplusplus/chatbot-ecommerce-callapi)
+A Flask-based backend service designed to power a conversational AI chatbot. This project connects to Google's powerful Gemini-1.5-flash model to understand and respond to user queries in real-time, serving as the core intelligence for an e-commerce virtual assistant.
+
+#### Highlights
+* **RESTful API Backend**: Built with Flask, providing a clean `/api/chat` endpoint for seamless integration with any front-end application.
+* **Google Gemini Integration**: Leverages the `google-generativeai` SDK to harness the power of the Gemini-1.5 Flash model for advanced natural language understanding and generation.
+* **Context-Aware Conversations**: Intelligently processes and passes conversation history to the AI model, enabling more natural, stateful interactions.
+* **Secure and Configurable**: Manages API keys securely using environment variables and includes built-in safety settings to moderate content.
+
+#### Tech Stack
+* **Python**
+* **Flask**
+* **Google Generative AI (Gemini)**
+
 
 ---
 
