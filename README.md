@@ -150,7 +150,7 @@ A full e-commerce frontend paired with a Rasa-powered NLU chatbot for Vietnamese
 
 - **Email**: vungocson189204@gmail.com
 - **GitHub**: [github.com/sonplusplus](https://github.com/sonplusplus)
-- **Linkedin** : [linkedin.com/in/vungocson189] (https://www.linkedin.com/in/sonvungoc189/)
+- **Linkedin** : [linkedin.com/in/vungocson189](https://www.linkedin.com/in/sonvungoc189/)
 - Always open to collaborating on AI/ML projects or discussing research ideas
 
 ---
