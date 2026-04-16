@@ -13,8 +13,9 @@
 
 ## 🌱 Currently Learning
 
-- **Vision Transformers (ViT)** — Architecture deep-dives and applications in Object Detection & Image Segmentation
-- **LLM Fine-tuning & RAG** — Retrieval-Augmented Generation pipelines for domain-specific AI applications
+- **Document AI / LayoutLMv3** — Fine-tuning multimodal transformers for Vietnamese receipt understanding; labeling in progress
+- **MLflow & Experiment Tracking** — Reproducible training pipelines and model versioning
+- **RAG & Vector Databases** — Building retrieval pipelines with ChromaDB for domain-specific LLM applications
 
 ---
 ## 🛠️ Tech Stack
