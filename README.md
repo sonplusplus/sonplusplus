@@ -5,7 +5,18 @@
   Final-year Software Engineering student at PTIT, obsessed with building end-to-end AI systems — from training deep learning models to deploying them on embedded hardware. I specialize in Computer Vision, NLP, and Graph Neural Networks, and care deeply about models that work in the real world, not just on benchmarks. When I hit a wall, I may not always have an immediate answer — but I will find one.
 </p>
 
+## 🎯 Current Focus
 
+- **Seeking an AI Engineer / ML Engineer Internship** — Looking to apply academic knowledge to real-world products and contribute to production-grade AI systems
+
+---
+
+## 🌱 Currently Learning
+
+- **Vision Transformers (ViT)** — Architecture deep-dives and applications in Object Detection & Image Segmentation
+- **LLM Fine-tuning & RAG** — Retrieval-Augmented Generation pipelines for domain-specific AI applications
+
+---
 ## 🛠️ Tech Stack
 
 **Languages:** Python (primary) · C++ 
@@ -129,22 +140,10 @@ A full e-commerce frontend paired with a Rasa-powered NLU chatbot for Vietnamese
 - **Slot Filling for Context Persistence** — User preferences (`product_type`, `brand`, `price_range`) persist across conversation turns, enabling coherent multi-step queries like "find Asus laptops under 15M → check if it's in stock"
 - **Full E-Commerce Flow** — Frontend supports OAuth2 (Google, GitHub), OTP verification, VNPay payment, Vietnamese address APIs, and multi-step checkout
 
-**Stack:** Python · Rasa 3.6 · Rasa SDK · ReactJS · Vite · Tailwind CSS · JWT · OAuth2
+**Stack:** Python · Rasa 3.6 · Rasa SDK
 
 ---
 
-## 🎯 Current Focus
-
-- **Seeking an AI Engineer / ML Engineer Internship** — Looking to apply academic knowledge to real-world products and contribute to production-grade AI systems
-
----
-
-## 🌱 Currently Learning
-
-- **Vision Transformers (ViT)** — Architecture deep-dives and applications in Object Detection & Image Segmentation
-- **LLM Fine-tuning & RAG** — Retrieval-Augmented Generation pipelines for domain-specific AI applications
-
----
 
 ## Connect
 
