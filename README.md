@@ -1,135 +1,159 @@
-# 👋 Hello! I'm Vũ Ngọc Sơn 
+<h2 align="center">Vũ Ngọc Sơn</h2>
+<h3 align="center">AI Engineer · Computer Vision · NLP · Reinforcement Learning</h3>
 
-I'm currently a **third-year student majoring in Information Technology** at the **Posts and Telecommunications Institute of Technology (PTIT), Ho Chi Minh City Campus**. With a strong passion for technology, specializing in **AI-powered Web Applications(NLP)**,**Machine Learning** and **Deep Learning for Computer Vision**. I enjoy building complex, data-driven projects and am constantly exploring new ways to integrate intelligent features into software. I am on a dedicated path to becoming an AI Engineer, with the goal of developing software that makes a meaningful impact.
+<p align="center">
+  Final-year Software Engineering student at PTIT, obsessed with building end-to-end AI systems — from training deep learning models to deploying them on embedded hardware. I specialize in Computer Vision, NLP, and Graph Neural Networks, and care deeply about models that work in the real world, not just on benchmarks. When I hit a wall, I may not always have an immediate answer — but I will find one.
+</p>
 
----
 
-## 🛠️ Technical Skills
+## 🛠️ Tech Stack
 
-### 🔹 Programming Languages:
-- JavaScript (Node.js)
-- Python
-- HTML, CSS
+**Languages:** Python (primary) · C++ 
 
-### 🔹 Frameworks & Libraries:
-- ReactJS
-- TensorFlow
-- Pytorch
+**AI/ML Frameworks:** TensorFlow · PyTorch · Scikit-learn · HuggingFace · YOLOv5
 
-### 🔹 AI & Machine Learning:
-- Deep Q-Networks (DQN)
-- Natural Language Processing (NLP)
-- Chatbot Development
-- API Integration
+**Computer Vision:** OpenCV · TFLite · CLAHE · INT8 Quantization · EasyOCR
 
-### 🔹 Tools & Technologies:
-- Git & GitHub
-- VS Code
-- MongoDB
-- REST APIs
+**NLP:** PhoBERT · Sentence-Transformers · Rasa · DIETClassifier · TEDPolicy
+
+**Graphs & RL:** PyTorch Geometric (GCN) · OpenAI Gym · DDQN · Prioritized Experience Replay
+
+**Backend & Deployment:** FastAPI · Flask · Docker (basic) 
+
+**Tools & Platforms:** Git · Linux · Google Colab · Kaggle · VS Code
 
 ---
 
-## 🚀 Projects
-
-### 🛍️ [Front-Ecommerce](https://github.com/sonplusplus/Front-Ecommerce)
-A feature-rich frontend for a technology e-commerce website, built with ReactJS and Vite. This project delivers a modern, fast, and smooth user experience, allowing users to browse, search, and filter products, manage their shopping cart, and complete the checkout process. It features a robust authentication system (including OAuth2) and integrates a Gemini-powered AI chatbot for customer support.
-
-#### Highlights
-* **Comprehensive E-commerce Workflow**: Full implementation of product Browse, multi-level filtering (category, price, color), sorting, and a multi-step checkout process with integrated Vietnamese address APIs and multiple payment options (COD, VNPAY).
-* **Advanced User Authentication**: Secure user registration and login with email/password and OAuth2 (Google, GitHub), including OTP verification, "Forgot Password" functionality, and role-based access control.
-* **Integrated AI Chatbot**: Features a customer support chatbot powered by the Google Gemini API, providing intelligent assistance to users.
-* **Modern State Management & UI**: Utilizes React Context API for global state management (Auth, Cart, Orders) and is styled with a combination of Tailwind CSS and Material-UI for a clean, responsive, and accessible interface.
-
-#### Tech Stack
-* **ReactJS** & **Vite**
-* **React Router**
-* **Styling**: Tailwind CSS, Material-UI (MUI), Headless UI
-* **API Communication**: Axios with JWT interceptors
-* **Schema Validation**: Zod
+## Featured Projects
 
 ---
 
-### 🎬 [Cinema-DDB-Front](https://github.com/sonplusplus/Cinema-DDB-Front)
-An interactive front-end application for a cinema ticket booking system, designed to handle complex user interactions and state management.
+### Traffic Violation Detection System
 
-This project is the front-end for a movie theater booking platform, allowing users to browse movies, view showtimes, and select their seats through an interactive seating map. The application is a practical demonstration of managing complex UI states, such as tracking selected seats, showtimes, and user choices, which is a critical skill in building sophisticated single-page applications (SPAs).
+> **Core challenge:** Detect and log traffic violations in real-time video without human supervision.
 
-#### Highlights
-* **Interactive UI/UX**: Features a dynamic and engaging interface that allows users to easily navigate through the booking process, from movie selection to seat reservation.
-* **Full Booking and Checkout Flow**: Implements the entire user journey, including an interactive seat map, adding concessions, and a checkout process with a countdown timer for holding reservations.
-* **Payment Gateway Integration**: Connects with the VNPay payment gateway to handle transactions and displays a confirmation page upon completion.
-* **Component-Based Architecture**: The UI is built with reusable components for movie listings, showtime displays, and UI elements, showcasing efficient and scalable development practices.
+A real-time traffic monitoring pipeline that automatically identifies violating vehicles and reads their license plates from video streams.
 
-#### Tech Stack
-* **ReactJS**
-* **JavaScript**
-* **Tailwind CSS**
+**Key Engineering Decisions:**
+- **Custom YOLOv5 Fine-tuning** — Trained on a domain-specific vehicle dataset for accurate detection under varying lighting and occlusion conditions
+- **EasyOCR License Plate Extraction** — Integrated OCR pipeline to reliably extract plate numbers from cropped bounding boxes
+- **Rule-Based Violation Logic** — Deterministic classification engine that maps detected behavior to violation categories and writes structured logs automatically
+
+**Stack:** Python · OpenCV · YOLOv5 · EasyOCR
 
 ---
 
-### 🤖 [Intelligent E-commerce Chatbot](https://github.com/sonplusplus/Chatbot-ecommerce)
-A sophisticated, AI-powered conversational assistant built with the Rasa framework, designed to serve as a virtual shopping assistant for an online electronics store. This chatbot enhances the customer experience by providing instant, real-time support in Vietnamese, handling a wide range of queries from product discovery.
+### Hybrid Recommendation System
 
-#### Highlights
-* **Dynamic Product Interaction**: The chatbot can recommend products based on type, price, and features. It can also filter search results by brand and price range, and even provide side-by-side comparisons of two different products.
-* **Real-Time API Integration**: Using custom actions, the chatbot connects to the store's backend to check real-time product prices, stock availability, and order status, providing users with up-to-the-minute information.
-* **Advanced Natural Language Understanding (NLU)**: Built with a robust NLU pipeline, the chatbot accurately identifies user intents (e.g., `ask_product_recommendation`, `compare_products`) and extracts key entities like `product_name`, `brand`, and `price_range` from Vietnamese text.
+> **Core challenge:** Build a recommender that works with sparse interaction data and evolves without downtime.
 
-#### Tech Stack
-* **Python**
-* **Rasa**
-* **Rasa SDK**
-* **REST APIs**
-* **Pandas & Requests**
+**[GitHub](https://github.com/sonplusplus/RecommendSys/)**
 
----
+A production-oriented recommendation engine combining semantic content understanding and collaborative filtering signals for a Vietnamese e-commerce platform.
 
-### 🤖 [Chatbot E-commerce Call API](https://github.com/sonplusplus/chatbot-ecommerce-callapi)
-A Flask-based backend service designed to power a conversational AI chatbot. This project connects to Google's powerful Gemini-1.5-flash model to understand and respond to user queries in real-time, serving as the core intelligence for an e-commerce virtual assistant.
+**Key Engineering Decisions:**
+- **3-Source Data Merging Pipeline** — Fuses base CSV, accumulated interaction logs, and live API signals with deduplication and weight aggregation across training runs, ensuring model freshness without cold-start collapse
+- **Hybrid Scoring: PhoBERT (60%) + ALS (40%)** — PhoBERT generates content-aware item embeddings; ALS Collaborative Filtering captures implicit behavioral patterns via confidence-weighted matrix factorization
+- **Adaptive Training Strategy Selector** — Dynamically chooses between full retrain, warm-start, or incremental update depending on data drift magnitude — zero-downtime async model hot-swap keeps the API always live
+- **FastAPI Serving Layer** — Clean REST endpoints exposing recommendation results with low-latency inference
 
-#### Highlights
-* **RESTful API Backend**: Built with Flask, providing a clean `/api/chat` endpoint for seamless integration with any front-end application.
-* **Google Gemini Integration**: Leverages the `google-generativeai` SDK to harness the power of the Gemini-1.5 Flash model for advanced natural language understanding and generation.
-* **Context-Aware Conversations**: Intelligently processes and passes conversation history to the AI model, enabling more natural, stateful interactions.
-* **Secure and Configurable**: Manages API keys securely using environment variables and includes built-in safety settings to moderate content.
-
-#### Tech Stack
-* **Python**
-* **Flask**
-* **Google Generative AI (Gemini)**
-
+**Stack:** Python · FastAPI · PhoBERT · HuggingFace · ALS (Collaborative Filtering)
 
 ---
 
-### 🚀 [Pacman_DDQN](https://github.com/sonplusplus/Pacman_DDQN)
-An AI agent that learns to play Pacman by applying a sophisticated Reinforcement Learning algorithm to raw visual data.
+### IoT Network Intrusion Detection (GNN)
 
-This project implements a **Double Deep Q-Network (DDQN)**, an advanced model designed to solve complex, high-dimensional environments. The agent processes raw game pixels through a **Convolutional Neural Network (CNN)**, enabling it to learn optimal gameplay strategies—such as navigating mazes, collecting fruits, and avoiding ghosts—entirely through trial and error.
+> **Core challenge:** Detect cyberattacks on IoT network flows using graph-structured representations.
 
-#### Highlights
-* **Decoupled Q-Networks**: Implements the core of DDQN by using 2 networks **Q-policy** and **Q-target** to select the best action and evaluate that action's value. This decoupling mitigates the overestimation bias found in standard Q-learning.
-* **Prioritized Experience Replay (PER)**: Instead of uniform sampling, the agent learns more efficiently by replaying important experiences more frequently, focusing on events where there is a large discrepancy between its predicted and actual Q-values.
-* **End-to-End Visual Learning**: The agent learns directly from pixel data via a 3 layer CNN, eliminating the need for manual feature engineering and showcasing skills in building vision-based learning systems.
+**[GitHub](https://github.com/sangvirgo/IOT-traffic-anomaly-detect/)**
 
-#### Tech Stack
-* **Python**
-* **TensorFlow**
-* **OpenAI Gym**
+A Graph Convolutional Network applied to real-time network intrusion detection, framing traffic flows as a dynamic graph where topology encodes semantic similarity.
+
+**Key Engineering Decisions:**
+- **KNN Graph Construction** — Network flows represented as nodes; edges built via cosine similarity between feature vectors, capturing relational context that tabular models miss
+- **GCN Architecture** — Message-passing layers aggregate neighborhood information per flow, enabling the model to detect coordinated multi-flow attack patterns
+- **Active Learning Loop** — Iteratively selects the most informative unlabeled samples for annotation, dramatically reducing labeling cost while preserving detection quality
+- **96.7% Recall on Attack Flows** — False negatives reduced to 105/3,174 attack flows — designed to minimize missed threats over false alarm rate in security-critical context
+
+**Stack:** Python · PyTorch · PyTorch Geometric · Graph Neural Networks
+
+---
+
+### Drowsiness Detection for ESP32-CAM
+
+> **Core challenge:** Run a reliable drowsiness detector on a microcontroller with <1MB of RAM.
+
+**[GitHub](https://github.com/sonplusplus/Drowsiness-Detection-ESP32/)**
+
+An embedded-first drowsiness detection system optimized end-to-end for the ESP32-CAM — from IR night-vision preprocessing to INT8-quantized on-device inference.
+
+**Key Engineering Decisions:**
+- **IR Night-Vision Simulation** — CLAHE + histogram stretch preprocessing pipeline replicates low-light camera conditions during training, closing the sim-to-real gap before deployment
+- **Lightweight SE-CNN (27K params, 32×32 input)** — Squeeze-and-Excitation block provides channel-wise attention to boost accuracy with minimal parameter overhead — designed within strict microcontroller memory constraints
+- **PERCLOS with 30-Frame Sliding Window** — Instead of noisy single-frame classification, drowsiness is calculated as the percentage of eye closure over 30 consecutive frames, dramatically reducing false alarms
+- **INT8 Quantization & TFLite Export** — Post-training INT8 quantization shrinks model size for embedded deployment while achieving 98.4% recall on closed-eye class — the critical class in safety systems
+
+**Stack:** Python · TensorFlow · TFLite · OpenCV · CLAHE
+
+---
+
+### 🕹️ Pacman DDQN — RL Agent from Pixels
+
+> **Core challenge:** Teach an agent to play Pacman from raw pixels — no game state, no hand-crafted features.
+
+**[GitHub](https://github.com/Reinforcement-Learning-Pacman/Double-DeepQ-Learning)**
+
+A Double Deep Q-Network that learns optimal Pacman strategies end-to-end from visual observations, implementing advanced RL techniques to stabilize training.
+
+**Key Engineering Decisions:**
+- **Decoupled Q-Networks (DDQN)** — Separates action selection (Q-policy) from value estimation (Q-target), eliminating the overestimation bias that destabilizes vanilla DQN in long-horizon tasks
+- **Prioritized Experience Replay (PER)** — Samples transitions proportional to their TD-error magnitude, focusing learning on surprising or poorly-understood experiences and accelerating convergence
+- **3-Layer CNN Visual Encoder** — Processes raw game pixels directly; no manual feature engineering — learns spatial representations (walls, ghosts, pellets) entirely from reward signal
+
+**Stack:** Python · TensorFlow · OpenAI Gym
+
+---
+
+### E-Commerce Platform with NLU Chatbot
+
+> **Core challenge:** Build an intelligent Vietnamese-language shopping assistant that understands intent, extracts entities, and fetches real product data — without hardcoding every response.
+
+**[Frontend Repo](https://github.com/sonplusplus/Front-Ecommerce)** · **[Chatbot Repo](https://github.com/sonplusplus/Chatbot-ecommerce)**
+
+A full e-commerce frontend paired with a Rasa-powered NLU chatbot for Vietnamese customer support. The chatbot uses ML models to classify intent, extract entities, and manage multi-turn dialogue, then calls live product APIs to respond with real data.
+
+**Key Engineering Decisions:**
+- **DIETClassifier NLU Pipeline** — Dual Intent and Entity Transformer classifies user intent across 20+ intents (`ask_product_recommendation`, `compare_products`, `filter_products_by_price`...) and extracts structured entities (`product_name`, `brand`, `price_range`, `feature`) from raw Vietnamese text — learned from training data, not hardcoded patterns
+- **TEDPolicy Dialogue Management** — Transformer Embedding Dialogue policy learns optimal action sequences from conversation stories, enabling flexible multi-turn flows beyond simple if/else routing
+- **Real-Time API Integration** — Custom Rasa SDK actions call a live backend for product search, price lookup, stock availability, and order status — responses reflect actual inventory, not mock data
+- **Slot Filling for Context Persistence** — User preferences (`product_type`, `brand`, `price_range`) persist across conversation turns, enabling coherent multi-step queries like "find Asus laptops under 15M → check if it's in stock"
+- **Full E-Commerce Flow** — Frontend supports OAuth2 (Google, GitHub), OTP verification, VNPay payment, Vietnamese address APIs, and multi-step checkout
+
+**Stack:** Python · Rasa 3.6 · Rasa SDK · ReactJS · Vite · Tailwind CSS · JWT · OAuth2
+
+---
+
+## 🎯 Current Focus
+
+- **Seeking an AI Engineer / ML Engineer Internship** — Looking to apply academic knowledge to real-world products and contribute to production-grade AI systems
 
 ---
 
 ## 🌱 Currently Learning
 
-I am always eager to learn and expand my skill set. Currently, I'm focusing on:
-- Exploring advanced Computer Vision architectures like **Vision Transformers (ViT)** and their applications in **Object Detection** and **Image Segmentation**.
-- Fine-tuning **Large Language Models (LLMs)** for specialized tasks and exploring techniques like **Retrieval-Augmented Generation (RAG)**.
+- **Vision Transformers (ViT)** — Architecture deep-dives and applications in Object Detection & Image Segmentation
+- **LLM Fine-tuning & RAG** — Retrieval-Augmented Generation pipelines for domain-specific AI applications
 
 ---
 
-## 📫 Connect with Me
+## Connect
 
-- 🔗 **Email**: `vungocson189204@gmail.com`
-- 💬 I'm always open to collaborating on interesting projects or discussing technology!
+- 📧 **Email**: vungocson189204@gmail.com
+- 💻 **GitHub**: [github.com/sonplusplus](https://github.com/sonplusplus)
+- 🤝 Always open to collaborating on AI/ML projects or discussing research ideas
 
 ---
+
+<p align="center">
+  <i>Seeking AI Engineer internship opportunities — Computer Vision · NLP · Embedded AI · RL</i>
+</p>
